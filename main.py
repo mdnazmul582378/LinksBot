@@ -2,7 +2,8 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import requests
 
-exec(requests.get("https://raw.githubusercontent.com/YourUsername/YourRepo/main/utils.py").text)
+import requests
+exec(requests.get("https://raw.githubusercontent.com/mdnazmul582378/LinksBot/main/utils.py").text)
 
 bot = Client(
     "link_bot",
